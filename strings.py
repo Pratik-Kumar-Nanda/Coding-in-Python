@@ -61,3 +61,35 @@ print(f"Word count: {len(user_text.split())}")
 print(f"Reversed string: {user_text[::-1]}")
 
 
+# Here is the code output for better understanding
+"""
+--Basic methods--
+Original String: Hello everyone, today I am learning Python
+Length of string: 42
+Capitalize: Hello everyone, today i am learning python
+Upper case: HELLO EVERYONE, TODAY I AM LEARNING PYTHON
+Lower case: hello everyone, today i am learning python
+Title case: Hello Everyone, Today I Am Learning Python
+
+--Search methods --
+Ends with 'Python': True
+Starts with 'Hello': True
+Frequency of 'o': 4
+First occurrence of 'o': 4
+
+--Replace methods--
+Original text: Hello everyone, today I am learning Python
+Replaced text: Hello world, today I am learning Python
+
+--Split and Strip--
+Original text: '   Python is fun to learn   '
+After strip(): 'Python is fun to learn'
+After split(): ['Python', 'is', 'fun', 'to', 'learn']
+
+--User input demo--
+Enter a sentence: Hey, welcome to my Repository
+You entered: Hey, welcome to my Repository
+Upper case: HEY, WELCOME TO MY REPOSITORY
+Word count: 5
+Reversed string: yrotisopeR ym ot emoclew ,yeH
+"""
